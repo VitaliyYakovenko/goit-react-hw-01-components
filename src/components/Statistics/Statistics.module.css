@@ -1,0 +1,27 @@
+.statistics {
+    margin-right: 40px;
+}
+
+.titel  {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stat {
+    display: flex;
+}
+
+.stat__item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.stat__label {
+    margin-bottom: 10px;
+}
+
+.stat__percentage {
+    text-align: center;
+}

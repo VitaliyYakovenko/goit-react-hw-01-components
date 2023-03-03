@@ -1,0 +1,36 @@
+
+.friends {
+    display: flex;
+    flex-direction: column;
+}
+
+.friend__item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.417);
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px 50px;
+}
+
+
+.isOnline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: green;
+}
+
+.isOfline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: red;
+}
+
+.friend__avatar {
+    margin-right: 8px;
+}

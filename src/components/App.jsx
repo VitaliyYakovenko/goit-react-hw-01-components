@@ -19,6 +19,7 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
+        flexWrap: 'wrap',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -35,7 +36,7 @@ export const App = () => {
         statsLikes = {user.stats.likes}
       />
 
-      <Statistics title="Upload stats" stats={data} />
+      <Statistics titel="Upload stats" stats={data} />
       <Statistics stats={data} />
       
       <FriendList
