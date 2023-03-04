@@ -18,10 +18,10 @@ export const App = () => {
     <div
       style={{
         height: '100vh',
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-        alignItems: 'center',
+        // display: 'flex',
+        // flexWrap: 'wrap',
+        // justifyContent: 'center',
+        // alignItems: 'center',
         fontSize: 40,
         color: '#010101'
       }}

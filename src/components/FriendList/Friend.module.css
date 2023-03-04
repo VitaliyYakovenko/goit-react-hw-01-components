@@ -1,7 +1,10 @@
 
 .friends {
+    width: 350px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .friend__item {
